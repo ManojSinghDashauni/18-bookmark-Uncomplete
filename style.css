@@ -1,0 +1,121 @@
+:root {
+    --color-Soft-Blue: hsl(231, 69%, 60%);
+    --color-Soft-Red: hsl(0, 94%, 66%);
+    --color-Grayish-Blue: hsl(229, 8%, 60%);
+    --color-Very-Dark-Blue: hsl(229, 31%, 21%);
+}
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+p{
+    font-size: 18px;
+}
+
+.accordion-button:hover{
+    color: red;
+}
+
+.accordion-button:active{
+    border:none;
+    background-color: transparent;
+}
+
+
+.accordion-button:focus{
+    border:none;
+    background-color: transparent;
+}
+
+
+.carbtn{
+    border: none;
+    border-bottom: 2px solid var(--color-Grayish-Blue);
+    padding: 16px 32px;
+    background: transparent;
+}
+
+.carbtn:active{
+    border-bottom: 4px solid red;
+}
+
+.carbtn:hover{
+    color:  red;
+}
+
+
+/* .accordion-header,.accordion-header :focus{
+    background-color: transparent;
+    border: none;
+} */
+/* .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hero__text{
+    flex:0 0 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+}
+
+.hero__button{
+    margin-top: 16px;
+}
+
+.hero__button button{
+    margin-right: 16px;
+}
+
+.hero__bg{
+    flex:0 0 50%;
+background-color: aqua;
+    position: relative;
+} 
+
+.hero__img{
+    
+}
+
+.halfCircle{
+    position: absolute;
+    background-color: var(--color-Soft-Blue);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    width: 300px;
+    height: 300px;
+    right: 0;
+    bottom: 0;
+    z-index: -10;
+} 
+
+h1{
+    font-size: 48px;
+}
+p{
+    font-size: 20px;
+    margin-block: 16px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+.slider{
+    margin-top: 24px;
+} */
